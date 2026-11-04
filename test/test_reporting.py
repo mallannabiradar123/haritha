@@ -3,5 +3,5 @@ def test_report_success():
     assert result==30
 
 def test_report_failure():
-    result=5*5
-    assert result==25
+    result=5*4
+    assert result==20
